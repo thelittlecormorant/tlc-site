@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&display=swap');
+
+
+.header{
+  padding-right: 2vh;
+  border-bottom: 2px solid #962307ff ;
+}
+
+.title{
+  font-family: 'Mali', cursive;
+  font-size: medium;
+  padding-left: 2vh;
+  color: #962307ff;
+  
+}
+
+.title img{
+  height: 3vh;
+  width: 3vh;
+
+}
+
+.footer{
+  margin: 1vh;
+  padding-left: 3vh;
+  border-top: 2px solid #962307ff ;
+}
+
+.icons{
+  color:#962307ff;
+  padding-right: 2vh ;
+}
+
+
+.menubar{
+  padding-right:3vh;
+}
+
+.menubar .icons{
+  color: #962307ff;
+  padding:2vh;
+  height: 50vh;
+  width: 50vh;
+}
+
+.aboutbox{
+  background-color: #b10853ff;
+}
+
+.labsbox{
+  background-color: #1c2edeff;
+}
+
+.blogsbox{
+  background-color: #02967dff;
+}
+
+.contactbox{
+  background-color: #9d2422ff;
+  
+}
+
+
+
+
+
+.example-flex-container {
+  display: flex;
+  /* justify-content:space-around; */
+  flex-wrap: wrap;
+  color:#962307ff;
+}
+/* 
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+} */
