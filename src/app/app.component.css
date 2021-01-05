@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&display=swap');
 
 
-.header{
-  padding-right: 2vh;
-  border-bottom: 2px solid #962307ff ;
-}
 
 .title{
   font-family: 'Mali', cursive;
@@ -62,7 +58,12 @@
 
 
 
-
+.menu{
+  padding: 2vh;
+}
+.menu a{
+  font-size:x-large;
+}
 
 .example-flex-container {
   display: flex;
