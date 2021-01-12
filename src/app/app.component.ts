@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tlc-site';
+  isHidden=false;
+  isAboutClicked=true;
+  isProjectsClicked=false;
+  isContactsClicked=false;
+  
 }

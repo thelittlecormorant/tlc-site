@@ -60,9 +60,11 @@
 
 .menu{
   padding: 2vh;
+  text-align: center;
 }
 .menu a{
   font-size:x-large;
+  text-align: center;
 }
 
 .example-flex-container {

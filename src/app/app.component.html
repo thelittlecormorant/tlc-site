@@ -1,14 +1,16 @@
+<div style="height: 100vh;background: rgb(160, 87, 69);">
+  <div fxLayout="column" fxLayout.gt-xs="row" fxFlexFill style="border: 1px solid black;">
+    <div fxFlex="30" fxLayoutAlign="center center" style="border: 1px solid black; margin: 4vh;background: white;">
 
-  <div style="height: 100vh;background: rgb(160, 87, 69);">
-    <div fxLayout="column" fxLayout.gt-xs="row" fxFlexFill style="border: 1px solid black;">
-      <div fxFlex="30" style="border: 1px solid black; margin: 4vh;background: white;">
-        
-        <div class="menu">
-          <a mat-flat-button routerLink=".">About</a>
-          <a mat-flat-button routerLink=".">Projects</a>
-          <a mat-flat-button routerLink=".">Contact</a>
-        </div>
+      <div class="menu">
+        <div> <a mat-button routerLink="/about">ABOUT</a></div>
+        <div><a mat-button routerLink="/projects">PROJECTS</a></div>
+        <div><a mat-button routerLink="/contact">CONTACT</a></div>
       </div>
-      <div fxFlex style="border: 1px solid black;margin: 2vh;background: white;">Yo</div>
+    </div>
+    <div fxFlex fxLayoutAlign="none none"
+      style="border: 1px solid black;margin: 2vh;background: white;overflow-y: scroll;overflow-x: hidden;">
+      <router-outlet></router-outlet>
     </div>
   </div>
+</div>
